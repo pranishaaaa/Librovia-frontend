@@ -2,7 +2,7 @@ import axios from "axios";
 
 const createApi = () => {
   const instance = axios.create({
-    baseURL: "http://localhost:8000/api",
+    baseURL: "https://librovia-backend.onrender.com/api",
     timeout: 30000,
     headers: {
       "Content-Type": "application/json",
